@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkcyan;
+    color: white;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 50px;
+}
+
+.table{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;    
+    background-color: blue;
+}
+
+.fizz{
+    background-color: green;
+}
+
+.buzz{
+    background-color: darkgoldenrod;
+}
+
+.fizzbuzz{
+    background-color: darkred;
+}
